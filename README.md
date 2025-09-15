@@ -15,7 +15,10 @@
 
    ### What is a QR Code?
 
-    A Quick Response code is a two-dimensional pictographic code used for its fast readability and comparatively large storage capacity. The code consists of black modules arranged in a square pattern on a white background. The information encoded can be made up of any kind of data (e.g., binary, alphanumeric, or Kanji symbols)
+    A Quick Response code is a two-dimensional pictographic code used for its fast readability and comparatively large storage capacity. 
+    The code consists of black modules arranged in a square pattern on a white background. 
+    The information encoded can be made up of any kind of data (e.g., binary, alphanumeric, or Kanji symbols)
+    
   </p>
     <br />
     <a href="#"><strong>Explore the docs »</strong></a>
@@ -86,14 +89,14 @@ Jenga QR is a simple light-weight service. It is meant to deliver the following:
   $ cd _build/html/
 ```
 
-[contributors-shield]: https://img.shields.io/github/contributors/SharleneNdinda/momo-cafe?style=for-the-badge
-[contributors-url]: https://github.com/SharleneNdinda/shortly-api/contributors
-[forks-shield]: https://img.shields.io/github/forks/SharleneNdinda/momo-cafe?style=for-the-badge
-[forks-url]: https://github.com/SharleneNdinda/shortly-api/forks
-[stars-shield]: https://img.shields.io/github/stars/SharleneNdinda/momo-cafe?style=for-the-badge
-[stars-url]: https://github.com/SharleneNdinda/shortly-api/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SharleneNdinda/momo-cafe?style=for-the-badge
-[issues-url]: https://github.com/SharleneNdinda/shortly-api/issues
+[contributors-shield]: https://img.shields.io/github/contributors/SharleneNdinda/jenga_qr?style=for-the-badge
+[contributors-url]: https://github.com/SharleneNdinda/jenga_qr/contributors
+[forks-shield]: https://img.shields.io/github/forks/SharleneNdinda/jenga_qr?style=for-the-badge
+[forks-url]: https://github.com/SharleneNdinda/jenga_qr/forks
+[stars-shield]: https://img.shields.io/github/stars/SharleneNdinda/jenga_qr?style=for-the-badge
+[stars-url]: https://github.com/SharleneNdinda/jenga_qr/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SharleneNdinda/jenga_qr?style=for-the-badge
+[issues-url]: https://github.com/SharleneNdinda/jenga_qr/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: in/sharlene-mutuku-86571518b
 [product-screenshot]: images/architecture.png
