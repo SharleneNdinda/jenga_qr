@@ -11,12 +11,16 @@
 <h3 align="center"> 🍎 Jenga QR 🍎 </h3>
 
   <p align="center">
+    <img src="jenga_qr/generator/static/generator/images/landing-page.png" alt="Landing Page">
+
     Generate QR codes on the go!
 
    ### What is a QR Code?
 
-    A Quick Response code is a two-dimensional pictographic code used for its fast readability and comparatively large storage capacity. 
+    A Quick Response code is a two-dimensional pictographic code used for its fast readability and comparatively large storage capacity.
+
     The code consists of black modules arranged in a square pattern on a white background. 
+
     The information encoded can be made up of any kind of data (e.g., binary, alphanumeric, or Kanji symbols)
     
   </p>
