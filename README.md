@@ -12,6 +12,7 @@
 
   <p align="center">
     <img src="jenga_qr/generator/static/generator/images/landing-page.png" alt="Landing Page">
+    <img src="jenga_qr/generator/static/generator/images/genarate.png" alt="Landing Page">
 
     Generate QR codes on the go!
 

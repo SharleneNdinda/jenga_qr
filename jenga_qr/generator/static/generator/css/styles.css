@@ -9,8 +9,15 @@ body {
 .hero-text {
   font-family: "Pixelify Sans", sans-serif;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 60px;
+  background-color: rgb(241, 253, 255);
+  color: rgb(45, 132, 178);
+  border: none;
   margin: 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 38px;
+  text-decoration: none;
 }
 
 .hero-text-container {
@@ -34,7 +41,7 @@ body {
 .top-nav a {
   font-family: "Pixelify Sans", sans-serif;
   float: left;
-  color: black;
+  color: rgb(45, 132, 178);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -48,4 +55,38 @@ body {
 .top-nav a:hover {
   background-color: rgb(212, 248, 255);
   color: black;
+}
+
+.form-group {
+  width: 50%;
+}
+/* Input Styling */
+input[type="text"] {
+  width: 100%; /* Makes the input take up full width of its container */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 40px; /* Slightly rounded corners */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff; /* Changes border color on focus */
+  outline: none; /* Removes the default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a subtle shadow on focus */
+}
+
+.form-submit {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 600;
+  background-color: rgb(45, 132, 178);
+  color: rgb(241, 253, 255);
+  border: none;
+  border-radius: 40px; /* Slightly rounded corners */
+  padding: 10px;
+  width: 30%;
+  margin-top: 10px;
+  font-size: 24px;
 }

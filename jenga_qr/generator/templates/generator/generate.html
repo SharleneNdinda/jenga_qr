@@ -15,7 +15,17 @@
       </div>
 
       <div class="hero-text-container">
-        <a class="hero-text" href="{% url 'generator:generate' %}">GENERATE QR CODE</a>
+        <div class="form-group">
+          <form action="">
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter your text to generate a QR Code"
+            />
+            <input class="form-submit" type="submit" value="GENERATE" />
+          </form>
+        </div>
       </div>
     </div>
   </body>
