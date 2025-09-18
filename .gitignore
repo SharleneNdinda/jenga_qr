@@ -2,6 +2,7 @@ env.sh
 
 __pycache__
 /__pycache__
+media/
 
 .DS_Store
 /DS_Store

@@ -16,13 +16,9 @@
 
       <div class="hero-text-container">
         <div class="form-group">
-          <form action="">
-            <input
-              type="text"
-              id="username"
-              name="username"
-              placeholder="Enter your text to generate a QR Code"
-            />
+          <h1>Jenga QR</h1>
+          <form action="{% url 'generator:generate' %}" method="post">
+            {% csrf_token %} {{ form }}
             <input class="form-submit" type="submit" value="GENERATE" />
           </form>
         </div>

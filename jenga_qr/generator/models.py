@@ -14,7 +14,7 @@ class QRCode(models.Model):
         unique=True, default=uuid.uuid4, editable=False, primary_key=True
     )
     data = models.TextField(max_length=250)
-    qr_code = models.ImageField(upload_to='qr_codes/' ,null=True, blank=True)
+    qr_code = models.ImageField(upload_to="qr_codes/", null=True, blank=True)
 
     def generate_qr_code(self):
         """Generate a QR Code."""
@@ -29,8 +29,7 @@ class QRCode(models.Model):
         file_name = f"qr_{self.guid}.png"
         self.qr_code.save(file_name, ContentFile(buffer.read()), save=False)
         buffer.close()
-        
-    
+
     def save(self, *args: Any, **kwargs: Any) -> None:
         """Validate fields before saving."""
         if self._state.adding:
