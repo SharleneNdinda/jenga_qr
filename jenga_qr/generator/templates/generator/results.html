@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'generator/css/styles.css' %}" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="top-nav">
+        <a class="active" href="{% url 'generator:index' %}">Jenga QR</a>
+        <a class="how-it-works" href="#about">How It Works</a>
+      </div>
+
+      <div class="results-group">
+        <h1>Jenga QR</h1>
+        <p>Your QR Code is ready just snap!! </p>
+        <div class="result-elements">
+          <img src="{{ obj.qr_code.url }}" alt="Uploaded image" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

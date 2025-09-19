@@ -13,6 +13,7 @@
   <p align="center">
     <img src="jenga_qr/generator/static/generator/images/landing-page.png" alt="Landing Page">
     <img src="jenga_qr/generator/static/generator/images/genarate.png" alt="Landing Page">
+    <img src="jenga_qr/generator/static/generator/images/results.png" alt="Landing Page">
 
     Generate QR codes on the go!
 
@@ -63,7 +64,7 @@
 
 Jenga QR is a simple light-weight service. It is meant to deliver the following:
 
-    ✅ Be able to generate unique QR codes based on a give url.
+    ✅ Be able to generate unique QR codes based on a give text.
 
 ### 🚀 Getting Started
 
@@ -77,21 +78,9 @@ Jenga QR is a simple light-weight service. It is meant to deliver the following:
   $ python manage.py migrate
 ```
 
-3. Run tests.
-```sh
-  $ pytest -v
-```
-
-4. Run development server.
+3. Run development server.
 ```sh
   $ python manage.py runserver
-```
-
-5. Generate docs locally.
-```sh
-  $ cd docs/
-  $ make html
-  $ cd _build/html/
 ```
 
 [contributors-shield]: https://img.shields.io/github/contributors/SharleneNdinda/jenga_qr?style=for-the-badge
